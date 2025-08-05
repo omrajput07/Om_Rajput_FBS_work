@@ -20,10 +20,10 @@ if(unit>0):
 else:
     print("the input value is Invalid..")
 
-surcharge = total_bill * 20/100
+surcharge = total_bill * 0.20
 total_bill = total_bill + surcharge 
 
-print(total_bill)
+print(total_bill, surcharge)
 
 
 
