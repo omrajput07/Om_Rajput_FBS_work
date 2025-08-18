@@ -3,7 +3,7 @@
 
 #id == 'admin' and password == 1234
 for attempt in range(1,4):
-    print("This is your attemp no",attempt, "remember after 3 attempts your password will be lock")
+    print("This is your attemp no",attempt, "remember after 3 attempts your password will be lock") # attempt  1  to 3 
     id = (input("Enter the user id:- "))
     password = int(input("Enter the password:- "))
     

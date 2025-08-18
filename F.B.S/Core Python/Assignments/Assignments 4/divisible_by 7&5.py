@@ -2,4 +2,4 @@
 n = int(input("Enter the number:- "))
 for num in range(1,n+1):
     if(num%5==0 and num%7==0):
-        print(num)
+        print(f'The number of the range to divisible by 5&7:-{num}')

@@ -9,7 +9,7 @@ for stud in range (1 , num_of_stud+1):
     sub5 = int(input("Enter the marks English:- "))
     total_marks = sub1 +sub2 + sub3 + sub4 + sub5
     percentage = total_marks/500*100
-    print(f"student :{stud}percentage is:={percentage}")
+    print(f"student :{stud}:percentage is:={percentage}")
     
     total_percentage += percentage  # Add to total
 
