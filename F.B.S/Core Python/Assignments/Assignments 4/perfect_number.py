@@ -5,6 +5,6 @@ for num in range(1,n):
     if(n%num==0):
         sum += num
 if(sum == n):
-    print(f'this is perfect number:- {num}')
+    print(f'this is perfect number:- ')
 else:
-    print(f'This not perfect number:- {num}')
+    print(f'This not perfect number:- ')
