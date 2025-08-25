@@ -1,9 +1,6 @@
-principal_amount = int(input("Enter principal amount:- "))
-rate_of_intrest = int (input("Enter rate of intrest:-(%) "))
-time_of_years = int (input("Enter of time in annual year:- "))
-p = principal_amount
-r = rate_of_intrest
-t = time_of_years
-
+p = int(input("Enter principal amount:- "))
+r = int (input("Enter rate of intrest:-(%) "))
+t = int (input("Enter of time in annual year:- "))
 compound_intrest = p * (1 + r/100) ** t
-print(f'compound_intrest:{compound_intrest}')
+rate_of_intres = compound_intrest - p
+print(f'Total amount is with intrest:{compound_intrest}:intrest of the amount:- {rate_of_intres}')
