@@ -1,0 +1,7 @@
+tu = (1,'abc',3.14)
+
+print(tu.count('abc'))
+
+print(tu.index(1))
+
+# The tuple are that can be only two methods 
